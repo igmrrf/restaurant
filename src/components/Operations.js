@@ -19,33 +19,45 @@ export class Operations extends Component {
 					<tbody>
 						<tr>
 							<td>Monday</td>
-							<td>Mark</td>
-							<td>Otto</td>
-							<td>@mdo</td>
+							<td>9:00am</td>
+							<td>9:00pm</td>
+							<td>Camondo 20%</td>
 						</tr>
 						<tr>
 							<td>Tuesday</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
+							<td>9:00am</td>
+							<td>7:00pm</td>
+							<td>Fatiliza 10%</td>
 						</tr>
 						<tr>
 							<td>Wednesday</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
+							<td>10:00am</td>
+							<td>6:00pm</td>
+							<td>Crustaceans 10%</td>
 						</tr>
 						<tr>
 							<td>Thursday</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
+							<td>9:00am</td>
+							<td>6:00pm</td>
+							<td>Brazkil 15%</td>
 						</tr>
 						<tr>
 							<td>Friday</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
+							<td>9:00</td>
+							<td>6:00pm</td>
+							<td>10% on All</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td>9:00</td>
+							<td>6:00pm</td>
+							<td>10% on Fish</td>
+						</tr>
+						<tr>
+							<td>Sunday</td>
+							<td>12:00noon</td>
+							<td>9:00pm</td>
+							<td>10% on Snacks</td>
 						</tr>
 					</tbody>
 				</Table>

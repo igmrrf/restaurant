@@ -5,16 +5,14 @@ export class Booking extends Component {
 	render() {
 		return (
 			<Container>
-				<div>
-					<h1>
-						Reservations: Email restaurantindika@gmail.com or Call (713)
-						524-2170
-					</h1>
-					<h1>
-						Location: 516 Westheimer Road, Houston Texas 77006 Complimentary
-						Valet
-					</h1>
-					<h1>Parking</h1>
+				<div className="text-center">
+					<h1>Reservations</h1>
+					<p>E-mail francis.igbiriki.fi@gmail.com or</p>
+					<p>Call (081) 370-45484</p>
+					<h1>Location:</h1>
+					<p>590 Baltimore Pike,</p>
+					<p>New Pace 007,</p>
+					<p>Double Stale Parking</p>
 				</div>
 			</Container>
 		);

@@ -1,16 +1,13 @@
 * {
 	font-family: "Rationale", sans-serif;
 }
-
-body {
-	background: linear-gradient(
-		to left rgba(226, 40, 40, 0.5),
-		rgba(199, 47, 27, 0.5)
-	);
+.App {
+	min-height: 100vh;
 }
 
 .about-cover {
-	background: url(./assets/images/dinning.png) no-repeat center center;
+	background: url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2019/08/00-10-of-the-Best-Indian-Foods-You-Need-to-Try.jpg)
+		no-repeat center center;
 	background-size: cover;
 	height: 500px;
 	color: white;
@@ -20,8 +17,12 @@ body {
 	align-items: center;
 }
 
+.search-bar {
+	border: none;
+}
+
 .about .about-head {
-	font-size: 60px;
+	font-size: calc(32px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .about-rule {
@@ -30,10 +31,27 @@ body {
 }
 
 .about-text {
-	font-size: 24px;
+	padding-top: 5vh;
+	font-size: calc(18px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.about-text-head {
+	font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.span-icon {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
 .footer {
+	font-size: calc(26px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 	background: rgb(0, 0, 0);
-	color: white;
+	color: rgb(163, 163, 163);
+	min-height: 10vh;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
