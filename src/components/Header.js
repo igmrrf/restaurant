@@ -3,13 +3,16 @@ import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Nav from "react-bootstrap/Nav";
+const Link = require("react-router-dom").Link;
 
 class Header extends Component {
 	render() {
 		return (
 			<Navbar bg="light" expand="lg" className="top-header" sticky>
 				<Navbar.Brand>
-					<h2>Restaurant</h2>
+					<Link to="/">
+						<h2>Restaurant</h2>
+					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="header" />
 				<Navbar.Collapse id="header">
@@ -19,6 +22,7 @@ class Header extends Component {
 								type="text"
 								placeholder="search"
 								className="mr-sm-2"
+								style={{ border: "none", borderBottom: "2px solid blue" }}
 							/>
 						</Form>
 
@@ -27,7 +31,7 @@ class Header extends Component {
 						<Nav.Link>Beverage Program</Nav.Link>
 					</Nav>
 					<Nav>
-						<Nav.Link>Contact</Nav.Link>
+						<Nav.Link href="/contact">Contact</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>

@@ -9,22 +9,24 @@ export class Footer extends Component {
 			<div className="footer">
 				<Container fluid className="text-center pt-3">
 					<Row>
-						<Col>
-							<h3>Address</h3>
-							<address>No. 5 Baltimany New York</address>
+						<Col className="center">
+							<h3>© 2019 Kaitind Restaurant </h3>
 						</Col>
 
-						<Col md={6}>
-							<h2 className="text-left">Hi</h2>
+						<Col md={6} className="center">
+							<h2>
+								Developed by{" "}
+								<strong style={{ color: "blue" }}>IgmrrfServices</strong>
+							</h2>
 						</Col>
-						<Col>
-							<h3>Connect with us</h3>
-							<span>
+						<Col md={3} className="center">
+							<span className="span-icon">
 								<i className="fab fa-facebook"></i>
 								<i className="fab fa-instagram"></i>
 								<i className="fab fa-twitter"></i>
-								<i className="fab fa-500px text-white"></i>
+								<i className="fab fa-github"></i>
 							</span>
+							<h3>Connect with us</h3>
 						</Col>
 					</Row>
 				</Container>
